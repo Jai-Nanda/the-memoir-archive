@@ -1,0 +1,23 @@
+.podcastpage {
+  max-width: 85%;
+  margin: auto;
+}
+.podcastpage h1 {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.soon h1 {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 3.2rem;
+  margin-bottom: 5px;
+}
+.soon p {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+.soon {
+  margin-bottom: 250px;
+}

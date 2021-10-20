@@ -1,0 +1,89 @@
+:root {
+  --primary-color: #4eb4a1;
+  --secondary-color: white;
+  --bg-color: #202020;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
+  font-family: "lufga";
+}
+header {
+  max-width: 85%;
+  margin: auto;
+  margin-top: 40px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 50px;
+}
+button {
+  cursor: pointer;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-links li {
+  list-style: none;
+  font-family: "lufga";
+  color: white;
+  margin-left: 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+.nav-links a:hover {
+  color: var(--primary-color);
+  transition: 0.3s ease-in-out;
+}
+.foot {
+  background-image: url("../img/waves1.png");
+  display: flex;
+  justify-content: space-between;
+  max-width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.logos {
+  display: flex;
+  align-items: center;
+}
+.mage img {
+  width: 50px;
+}
+.archive h2 {
+  padding-left: 10px;
+}
+.foot h2 {
+  padding-bottom: 10px;
+}
+h1 {
+  font-size: 2.8rem;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  /* background: #fff; */
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: var(--primary-color);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}

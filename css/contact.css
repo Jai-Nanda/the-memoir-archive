@@ -1,0 +1,38 @@
+.contactpage {
+  max-width: 80%;
+  margin: auto;
+}
+.flexing {
+  display: flex;
+  justify-content: space-between;
+}
+.vector img {
+  width: 400px;
+}
+.contactpage h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  margin-top: 20px;
+}
+.media {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  margin-top: 20px;
+}
+.desc {
+  padding-left: 10px;
+  padding-top: 10px;
+}
