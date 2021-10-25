@@ -64,3 +64,24 @@ h3 {
 .box h3 {
   margin-top: 5px;
 }
+@media only screen and (max-width: 960px) {
+  .articlespage {
+    max-width: 90%;
+  }
+  .head h1 {
+    font-size: 2rem;
+  }
+  .search input {
+    width: 150px;
+    height: 35px;
+    font-size: 1rem;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .box {
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+  }
+}

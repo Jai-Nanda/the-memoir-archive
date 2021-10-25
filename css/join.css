@@ -35,3 +35,18 @@
   margin: auto;
   margin-top: 5px;
 }
+@media only screen and (max-width: 960px) {
+  .joinpage {
+    max-width: 90%;
+  }
+  .join {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
