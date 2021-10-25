@@ -40,18 +40,35 @@
 footer {
   background-color: var(--primary-color);
   margin-top: 10px;
-  height: 50px;
   width: 100%;
+  height: 50px;
 }
-.text p {
-  text-align: center;
-  font-size: 1.3rem;
+.socialmedia i {
+  padding-left: 10px;
+}
+.fles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+}
+.tex p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  font-size: 1.2rem;
   padding-top: 10px;
 }
-.social {
+.tex span {
+  font-weight: 600;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+.socialmedia {
   display: flex;
   justify-content: right;
-  margin-right: 50px;
+  align-items: center;
 }
 .waves img {
   height: 120px;
