@@ -21,20 +21,45 @@
   background-color: #f1f1f1;
   border-radius: 8px;
   margin-top: 50px;
-  color: var(--bg-color);
+  color: #202020;
+  position: relative;
 }
+
+/* On hover change the background color */
+.card:hover {
+  background-color: #7BDDCB;
+  color: #0F473D;
+}
+
 .card h2 {
   max-width: 80%;
-  margin: auto;
-  margin-top: 15px;
+  margin: 15px auto auto;
   font-size: 1.5rem;
 }
+
 .card p {
   font-size: 1.1rem;
   max-width: 80%;
-  margin: auto;
-  margin-top: 5px;
+  margin: 5px auto auto;
 }
+
+.btn-icon {
+}
+
+.apply-btn {
+  /* Align button to bottom right of the div */
+  position: absolute;
+  bottom: 15px;
+  margin-left: auto;
+  max-width: 80%;
+  color: #7bddcb;
+  background-color: #202020;
+  border-radius: 6px;
+  padding: 8px;
+  border-style: none;
+  visibility: hidden;
+}
+
 @media only screen and (max-width: 960px) {
   .joinpage {
     max-width: 90%;
