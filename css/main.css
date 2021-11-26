@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+
 :root {
   --primary-color: #4eb4a1;
   --secondary-color: white;
@@ -11,7 +13,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--secondary-color);
-  font-family: "lufga";
+  font-family: "poppins";
 }
 header {
   max-width: 85%;
@@ -36,7 +38,7 @@ button {
 }
 .nav-links li {
   list-style: none;
-  font-family: "lufga";
+  font-family: "poppins";
   color: white;
   margin-left: 20px;
 }
@@ -94,7 +96,7 @@ body::-webkit-scrollbar {
   background-color: transparent;
   color: white;
   font-size: 1.2rem;
-  font-family: "lufga";
+  font-family: "poppins";
   border: none;
   padding-left: 15px;
 }

@@ -16,34 +16,39 @@
   align-items: center;
 }
 .card {
-  width: 270px;
-  height: 200px;
+  width: 370px;
+  height: 370px;
   background-color: #f1f1f1;
   border-radius: 8px;
   margin-top: 50px;
   color: #202020;
   position: relative;
 }
-
+.joinpage a {
+  color: var(--primary-color);
+}
 /* On hover change the background color */
 .card:hover {
-  background-color: #7BDDCB;
-  color: #0F473D;
+  background-color: #7bddcb;
+  color: #0f473d;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .card h2 {
-  max-width: 80%;
+  max-width: 90%;
   margin: 15px auto auto;
   font-size: 1.5rem;
 }
 
 .card p {
   font-size: 1.1rem;
-  max-width: 80%;
+  max-width: 90%;
   margin: 5px auto auto;
 }
 
 .btn-icon {
+  font-size: 1.2rem;
 }
 
 .apply-btn {

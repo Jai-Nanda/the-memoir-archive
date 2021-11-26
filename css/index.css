@@ -29,7 +29,7 @@
   border: none;
   outline: none;
   margin-top: 20px;
-  font-family: "lufga";
+  font-family: "poppins";
   font-size: 1.2rem;
   border-radius: 10px;
   color: var(--secondary-color);
@@ -40,6 +40,8 @@
 footer {
   background-color: var(--primary-color);
   margin-top: 10px;
+  position: absolute;
+  bottom: 0;
   width: 100%;
   height: 50px;
 }
@@ -71,10 +73,15 @@ footer {
   align-items: center;
 }
 .waves img {
-  height: 120px;
+  position: absolute;
+  bottom: 0;
   width: 100%;
+  height: 180px;
 }
-
+.tex a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
 @media only screen and (max-width: 960px) {
   .homepage {
     flex-direction: column;
