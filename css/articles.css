@@ -23,19 +23,19 @@
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #202020;
   opacity: 1; /* Firefox */
-  font-family: "lufga";
+  font-family: "poppins";
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #202020;
-  font-family: "lufga";
+  font-family: "poppins";
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #202020;
-  font-family: "lufga";
+  font-family: "poppins";
 }
 .main {
   display: flex;
@@ -63,6 +63,21 @@ h3 {
 }
 .box h3 {
   margin-top: 5px;
+}
+.box button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  outline: none;
+  margin-left: 85%;
+}
+.box a {
+  text-decoration: none;
+}
+.box button i {
+  font-size: 1.5rem;
+  color: var(--bg-color);
 }
 @media only screen and (max-width: 960px) {
   .articlespage {
