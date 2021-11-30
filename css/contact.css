@@ -47,10 +47,6 @@ body {
   padding-top: 10px;
 }
 
-.connect {
-  font-size: 1.6rem;
-}
-
 .connect-txt {
   /* Only bottom border */
   border-bottom: 1px solid #fff;
@@ -85,7 +81,7 @@ a {
 }
 
 .connect {
-  /* display it to right side of the screen */
+  font-size: 1.6rem;
   text-align: center;
   float: right;
 }
