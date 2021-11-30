@@ -119,4 +119,6 @@ a {
     font-size: 1rem;
     height: 20px;
   }
+  footer{
+    position: relative;
 }
