@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+
 .joinpage {
   max-width: 85%;
   margin: auto;
@@ -31,7 +33,7 @@
 .card:hover {
   background-color: #7bddcb;
   color: #0f473d;
-  cursor: pointer;
+  /*cursor: pointer;*/
   transition: 0.3s ease-in-out;
 }
 
@@ -55,14 +57,21 @@
   /* Align button to bottom right of the div */
   position: absolute;
   bottom: 15px;
-  margin-left: auto;
-  max-width: 80%;
+  right: 15px;
+  /*max-width: 80%;*/
   color: #7bddcb;
   background-color: #202020;
   border-radius: 6px;
   padding: 8px;
   border-style: none;
   visibility: hidden;
+  cursor: default;
+  font-family: poppins, serif;
+
+}
+
+.card:hover .apply-btn {
+  visibility: visible;
 }
 
 @media only screen and (max-width: 960px) {
