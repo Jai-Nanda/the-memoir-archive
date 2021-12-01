@@ -7,3 +7,8 @@ const nav = () => {
     })
 };
 nav();
+
+let form = "https://forms.gle/CcovkBRfzBK2ijnW8";
+function joinNow() {
+    window.open(form)
+}
