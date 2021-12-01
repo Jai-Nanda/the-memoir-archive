@@ -101,10 +101,20 @@ footer {
   }
   .textflex p {
     font-size: 1.1rem;
+    text-align: center;
   }
   .image img {
     max-width: 80vw;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .waves img {
+    display: none;
+  }
+  footer {
+    min-width: 100vw;
+    margin: 0;
+    position: relative;
   }
 }

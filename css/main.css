@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
 
 :root {
-  --primary-color: #7BDDCB;
+  --primary-color: #7bddcb;
   --secondary-color: white;
   --bg-color: #202020;
 }
@@ -35,6 +35,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#burger {
+  display: none;
 }
 .nav-links li {
   list-style: none;
@@ -142,10 +145,75 @@ body::-webkit-scrollbar {
 /* responsive */
 @media only screen and (max-width: 960px) {
   header {
+    transition: 0.3s;
+    max-width: 100%;
+    z-index: 100;
+  }
+  nav {
+    transition: 0.3s;
+    flex-direction: row-reverse;
+  }
+  .dropbtn {
+    transition: 0.3s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 20px;
+    font-size: 1.4rem;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0;
     display: none;
+    height: 100vh;
+    background-color: #141414;
+    top: 0;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    z-index: 1;
+    transition: 0.3s;
+  }
+  .nav-links li {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .nav-links a {
+    font-size: 1.5rem;
+  }
+  #burger {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 100;
+  }
+  .nav-active {
+    display: block;
+  }
+  .text {
+    font-size: 0.8rem;
+  }
+  .mage img {
+    width: 30px;
+  }
+  .logo img {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+  }
+  .connect i {
+    font-size: 0.7rem;
+  }
+  .connect p {
+    font-size: 1rem;
   }
 }
-
 
 .connect-txt {
   /* Only bottom border */
@@ -189,5 +257,3 @@ a {
 .text {
   float: left;
 }
-
-
